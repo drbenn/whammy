@@ -1,0 +1,8 @@
+.tooltip-flex-column {
+    position: relative;
+    height: fit-content;
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}

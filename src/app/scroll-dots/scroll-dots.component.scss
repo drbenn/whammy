@@ -1,0 +1,17 @@
+:host {
+    position: absolute;
+    right: 2%;
+    top: 15%;
+    background-color: rgba(32, 32, 32, 0.62);
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+    border-radius: 4rem;
+    height: fit-content;
+    width: 1rem;
+    z-index: 5000;
+}
+    
+.dot-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

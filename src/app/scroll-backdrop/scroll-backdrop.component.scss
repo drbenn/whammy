@@ -1,0 +1,22 @@
+.intersection-area {
+    border: 2px solid #000000;
+    border-bottom: 30px solid rgb(0, 0, 0);
+    background: linear-gradient(180deg, #ffffff, #757575);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px black;
+    opacity: 1;
+}
+
+.sticky-map-story-container {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+}

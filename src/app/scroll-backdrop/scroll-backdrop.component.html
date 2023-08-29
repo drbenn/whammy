@@ -1,0 +1,16 @@
+<div>
+    <div class="sticky-map-story-container">
+        <app-map-narrative></app-map-narrative>
+        <app-scroll-dots></app-scroll-dots>
+        <app-narrative-pane></app-narrative-pane>
+    </div>
+    <div *ngFor="let index of intersectionItems"
+        class="intersection-area"
+        appObserveElement
+        #intersection="intersection"
+        (isIntersecting)="storyIsIntersecting($event, index)"
+        [isContinuous]="true"
+        >
+        <p>Section {{ index }}</p>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+<div class="filter-outer-container">
+    <div class="filter-inner-container">
+        <div class="datepicker-container">
+            <mat-form-field appearance="outline">
+                <mat-label>Enter a date Range</mat-label>
+                <mat-date-range-input [formGroup]="range" [rangePicker]="picker">
+                    <input 
+                        matStartDate
+                        formControlName="start"
+                        placeholder="Start Date"
+                        #dateRangeStart
+                        (dateChange)="onDateChange(dateRangeStart, dateRangeEnd)"
+                    >
+                    <input 
+                        matEndDate
+                        formControlName="end"
+                        placeholder="End Date"
+                        #dateRangeEnd
+                        (dateChange)="onDateChange(dateRangeStart, dateRangeEnd)"
+                    >
+                </mat-date-range-input>
+                <!-- <mat-hint>MM/DD/YYYY ^^^^ MM/DD/YYYY</mat-hint> -->
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-date-range-picker #picker></mat-date-range-picker>
+                <mat-error *ngIf="range.controls.start.hasError('matStartDateInvalid')">Invalid Start Date</mat-error>
+                <mat-error *ngIf="range.controls.end.hasError('matEndDateInvalid')">Invalid End Date</mat-error>
+            </mat-form-field>
+        </div>
+    <ng-container *ngFor="let item of dataPoints | keyvalue">
+        <div [ngClass]="activeFilters.includes(item.key) ? 'active-filter-row' : 'filter-row' "
+            (click)="updateActiveFilters(item.key)">{{item.value}}
+        </div>
+    </ng-container>
+    </div>
+</div>

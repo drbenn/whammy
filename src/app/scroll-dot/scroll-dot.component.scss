@@ -1,0 +1,17 @@
+.active {
+    height: 0.6rem;
+    width: 0.6rem;
+    background-color: red;
+    border-radius: 10px;
+    margin-bottom: 0.7rem;
+    transition: 400ms;
+}
+      
+.inactive {
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: grey;
+    border-radius: 10px;
+    margin-bottom: 0.7rem;
+    transition: 400ms;
+}

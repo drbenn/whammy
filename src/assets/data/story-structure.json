@@ -1,0 +1,167 @@
+[
+    {
+        "mapChange": null,
+        "dialogInput": null
+    },
+    {
+        "mapChange": [
+            "one"
+        ],
+        "mapScene": {
+            "topic": "one",
+            "highlightCountries": [
+                "484",
+                "250",
+                "466"
+            ],
+            "mapping": [
+                {
+                    "title": "YOLO",
+                    "markerType": "point",
+                    "coords": [
+                        {
+                            "lat": 2,
+                            "lng": 3
+                        }
+                    ],
+                    "fillColor": "lime"
+                }
+            ]
+        },
+        "dialogInput": {
+            "componentType": "basic",
+            "title": "YOYOYOYOYLYLYO",
+            "text": "lorem80"
+        }
+    },
+    {
+        "mapChange": null,
+        "dialogInput": null
+    },
+    {
+        "mapChange": [
+            "two"
+        ],
+        "mapScene": {
+            "topic": "two",
+            "mapping": [
+                {
+                    "title": "BOLO",
+                    "markerType": "point",
+                    "coords": [
+                        {
+                            "lat": 2,
+                            "lng": 3
+                        }
+                    ],
+                    "fillColor": "lime"
+                },
+                {
+                    "title": "MOLO",
+                    "markerType": "icon",
+                    "coords": [
+                        {
+                            "lat": 12,
+                            "lng": -13
+                        }
+                    ],
+                    "icon": "astronaut"
+                },
+                {
+                    "markerType": "polygon",
+                    "coords": [
+                        {
+                            "lat": 20,
+                            "lng": 30
+                        },
+                        {
+                            "lat": -20,
+                            "lng": 30
+                        },
+                        {
+                            "lat": 20,
+                            "lng": -30
+                        }
+                    ],
+                    "fillColor": "#FF00FF32"
+                },
+                {
+                    "markerType": "line",
+                    "coords": [
+                        {
+                            "lat": 10,
+                            "lng": 10
+                        },
+                        {
+                            "lat": 20,
+                            "lng": -30
+                        }
+                    ],
+                    "fillColor": "yellow"
+                },
+                {
+                    "markerType": "curve",
+                    "coords": [
+                        {
+                            "lat": 10,
+                            "lng": 10
+                        },
+                        {
+                            "lat": 20,
+                            "lng": -30
+                        },
+                        {
+                            "lat": -10,
+                            "lng": -10
+                        }
+                    ],
+                    "fillColor": "yellow"
+                }
+            ]
+        },
+        "dialogInput": {
+            "componentType": "table",
+            "title": "YOYOYYLYLYOasdfasdf",
+            "text": "lorem80"
+        }
+    },
+    {
+        "mapChange": null,
+        "dialogInput": null
+    },
+    {
+        "mapChange": [
+            "three"
+        ],
+        "mapScene": {
+            "topic": "three",
+            "highlightCountries": [
+                "484",
+                "250",
+                "232"
+            ],
+            "mapping": [
+                {
+                    "title": "YOLO",
+                    "markerType": "point",
+                    "coords": [
+                        {
+                            "lat": 2,
+                            "lng": 3
+                        }
+                    ],
+                    "fillColor": "lime"
+                }
+            ]
+        },
+        "dialogInput": {
+            "componentType": "basic",
+            "title": "YOYOYOYOYLYLYO",
+            "text": "lorem80"
+        }
+    },
+    {
+        "mapChange": null,
+        "dialogInput": null
+    }
+]

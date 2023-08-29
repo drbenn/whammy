@@ -1,0 +1,22 @@
+<div *ngIf="dialogObject" [@inOutAnimation-storyblock] [ngClass]="isOpen ? 'dialog-container' : 'closed-dialog-container' ">
+    <div [ngClass]=" isOpen ? 'visible-text' : 'hidden-text' ">
+        <div class="title-row">
+        <span style="font-size: 1.8rem; font-weight: 600;"> {{ dialogObject.title }} </span>
+    </div>
+    <div class="body-row">
+        <span style="font-size: 0.7rem; font-weight: 400;"> {{ dialogObject.text }} </span>
+    </div>
+    <div class="table" *ngIf="dialogObject.componentType === 'table' ">
+        <div class="table-header">
+            <div class="header-cell"> Header 1 </div>
+            <div class="header-cell"> Header 2 </div>
+        </div>
+        <ng-container *ngFor="let data of testData">
+            <div class="table-row">
+                <div class="row-cell bold">{{ data.event }}</div>
+                <div class="row-cell">{{ data.color }}</div>
+            </div>
+        </ng-container>
+    </div>
+    </div>
+</div>

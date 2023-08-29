@@ -1,0 +1,7 @@
+<div *ngIf="scrollDots.length">
+    <div *ngFor="let dot of scrollDots; let i = index" class="dot-flex">
+        <div>
+            <app-scroll-dot [dotNumber]="i + 1">{{ i  }}</app-scroll-dot>
+        </div>
+    </div>
+</div>

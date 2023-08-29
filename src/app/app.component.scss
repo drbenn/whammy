@@ -1,0 +1,64 @@
+:host {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'barlow', Arial, Helvetica, sans-serif;
+}
+
+
+.bg-splash {
+    height: 50rem;
+    background-image: url("../assets/img/bg1.jpg");
+    opacity: 10%;
+    // background: linear-gradient(115deg,rgb(24, 24, 24) 0%, rgb(24, 24, 24) 40%, rgb(16, 33, 101) 80%, rgb(24, 24, 24) 100%);
+    color: #eee;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    position: relative;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+.splash-text {
+    font-size: 8rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    // padding: 5rem 0rem 3rem 0rem;
+    text-shadow: 1px 2px 3px rgb(29, 29, 29);
+}
+
+
+
+      
+a:link {
+    text-decoration: none;
+    color: #c4c4c4;
+    transition: 100ms;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #009f97;
+    transition: 100ms;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(42, 82, 134);
+    transition: 100ms;
+    cursor: default;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}

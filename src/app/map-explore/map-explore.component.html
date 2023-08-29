@@ -1,0 +1,14 @@
+<div id="map" class="map-container">
+	<svg 
+	#svgMap
+	width="100%"
+	height="100%"
+	stroke-linejoin="round"
+	stroke-linecap="round"
+	>
+	</svg>
+</div>
+
+<app-map-explore-filter></app-map-explore-filter>
+<div class="tooltip-position">
+<app-map-tooltip *ngIf="viewTooltip" [ngStyle]="ttPos" [ttData]="ttData" ></app-map-tooltip>
